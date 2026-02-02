@@ -18,16 +18,16 @@ The dataset is provided as a CSV file with the following columns:
 ['id', 'name', 'city', 'rating', 'rating_count', 'cost', 'cuisine', 'lic_no', 'link', 'address', 'menu']   
 ***Categorical: name, city, cuisine   
 Numerical: rating, rating_count, cost***
-STEP 1. Data Understanding and Cleaning
-Duplicate Removal: Identify and drop duplicate rows.
-Handling Missing Values: Impute or drop rows with missing values.
-Save the cleaned data to a new CSV file (cleaned_data.csv).
+1. Data Understanding and Cleaning
+  * Duplicate Removal: Identify and drop duplicate rows.
+  * Handling Missing Values: Impute or drop rows with missing values.
+  * Saved the cleaned data to a new CSV file (cleaned_data.csv).
 2. Data Preprocessing
-Encoding: Apply One-Hot Encoding to categorical features ( city, cuisine).
-Save the encoder as a Pickle file (encoder.pkl).
-Ensure all features are numerical after encoding.
-Create a preprocessed dataset (encoded_data.csv).
-Ensure the indices of cleaned_data.csv and encoded_data.csv match.
+  * Encoding: Apply One-Hot Encoding to categorical features ( city, cuisine).
+  * Save the encoder as a Pickle file (encoder.pkl) for the application and future use.
+  * Ensure all features are numerical after encoding.
+  * Created a preprocessed dataset in a file(encoded_data.csv).
+  * Ensure the indices of cleaned_data.csv and encoded_data.csv match.
 3. Recommendation Methodology
 Clustering or Similarity Measures:
 Use K-Means Clustering or Cosine Similarity to identify similar restaurants based on input features.
