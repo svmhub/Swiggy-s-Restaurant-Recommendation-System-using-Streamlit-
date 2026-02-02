@@ -29,13 +29,14 @@ Numerical: rating, rating_count, cost***
   * Created a preprocessed dataset in a file(encoded_data.csv).
   * Ensure the indices of cleaned_data.csv and encoded_data.csv match.
 3. Recommendation Methodology
-Clustering or Similarity Measures:
-Use K-Means Clustering or Cosine Similarity to identify similar restaurants based on input features.
-Use the encoded dataset for computations.
-Result Mapping:
-Map the recommendation results (indices) back to the non-encoded dataset (cleaned_data.csv).
+ * Used the Cosine Similarity to identify similar restaurants based on input features as the dataset contains the binary values more.
+ * Use the encoded dataset for computations.
+ * Result Mapping:
+ * Map the recommendation results (indices) back to the non-encoded dataset (cleaned_data.csv).
 4. Streamlit Application
-Build an interactive application with the following components:
-User Input: Accept user preferences (e.g., city, cuisine, rating,price,etc).
-Recommendation Engine: Process the input, query the encoded data, and generate recommendations.
-Output: Display recommended restaurants using cleaned_data.csv.
+ * Builded an interactive application(Swiggy_Restaurant_Recommandation_app.py with the following components:
+ * User Input: Accept user preferences (e.g., city, cuisine, rating,price,etc).
+ * Recommendation Engine: Process the input, query the encoded data, and generate recommendations.
+ * Output: Displayed recommended restaurants using cleaned_data.csv.
+
+***Note: I have a file(Model_Preparation_and_Building.ipynb) in the repository. Kindly go through that file to how I have addressed this recommendation model***
