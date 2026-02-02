@@ -39,4 +39,4 @@ Numerical: rating, rating_count, cost***
  * Recommendation Engine: Process the input, query the encoded data, and generate recommendations.
  * Output: Displayed recommended restaurants using cleaned_data.csv.
 
-***Note: I have a file(Model_Preparation_and_Building.ipynb) in the repository. Kindly go through that file to how I have addressed this recommendation model***
+***Note: I have uploaded a file(Model_Preparation_and_Building.ipynb) here in the repository. Kindly go through that file to how I have addressed this recommendation model***
