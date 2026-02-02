@@ -1,2 +1,2 @@
-# Swiggy-s-Restaurant-Recommendation-System-using-Streamlit-
+# Swiggy's-Restaurant-Recommendation-System-using-Streamlit-
 The objective is to build a recommendation system based on restaurant data provided. The system should recommend restaurants to users based on input features such as city, rating, cost, and cuisine preferences. The application will utilize clustering or similarity measures to generate recommendations and display results in an Streamlit Application.
